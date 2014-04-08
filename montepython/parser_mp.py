@@ -251,7 +251,7 @@ def create_parser():
     # Customized usage, for more verbosity concerning these subparsers options.
     usage = """%(prog)s [-h] [--version] {run,info} ... """
     usage += textwrap.dedent("""\n
-        From more help, type:
+        For more help, type:
         %(prog)s run -h
         %(prog)s info -h""")
 
